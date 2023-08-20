@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(16, 18, 19);
+
+    display: flex;
+    flex-direction: column;;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(16, 18, 19);
+
+    display: flex;
+    justify-content: left;
+    padding-left: 6rem;
+    gap: 2rem 3rem;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+}
+
+.nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    gap: .5rem 1.5rem;
+}
+
+.nav-list ul li:hover a {
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.nav-list .tbl-putih {
+    justify-content: right;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+  }
+  
+.nav-list .tbl-putih:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+  }
+
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+main .beranda {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    gap: 2rem;
+}
+
+main .perkenalan {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    gap: 2rem;
+}
+
+main .beranda .beranda-description {
+    flex: 1 1;
+}
+
+.tittle {
+    color: white;
+    font-size: 3rem;
+}
+
+.deskripsi {
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+main .beranda .beranda-image {
+    width: 20%;
+    flex: .8;
+    display: flex;
+}
+
+main .beranda .beranda-image img {
+    margin: auto;
+    min-width: 250px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+main .perkenalan .perkenalan-image {
+    width: 40%;
+    flex: .8;
+    display: flex;
+}
+
+main .perkenalan .perkenalan-image img {
+    margin: auto;
+    justify-content: left;
+    min-width: 250px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+main .biodata {
+    text-align: center;
+}
+
+main .biodata .biodata-tabel {
+    color: white;
+    font-size: 1rem;
+
+    margin: 0 auto;
+}
+
+main .connect {
+    width: 100%;
+
+    display: flex;
+}
+
+main .connect .connect-image {
+    gap: 4rem;
+    width: 80%;
+}
+
+main .connect .connect-image img {
+    width: 80%;
+    flex: 1 1;
+    border-radius: 20px;
+}
+
+main .connect .connect-image button {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+main .connect .connect-image button a {
+    text-decoration: none;
+    color: black;
+}
+
+main .connect .connect-image button:hover a {
+    text-decoration: underline;
+    color: rgb(72, 63, 243);
+}
+
+.kaki {
+    padding: 10px;
+    color: black;;
+
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+}
+
+
+
